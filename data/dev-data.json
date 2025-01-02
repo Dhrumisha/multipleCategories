@@ -1,0 +1,233 @@
+[
+   {
+       "_id": {
+           "$oid": "67616af357925a23ac44d9f0"
+       },
+       "parentId": null,
+       "name": "Electronics",
+       "description": "Latest and greatest gadgets and devices.",
+       "status": "active",
+       "stock_availability": true,
+       "children": [
+           {
+               "$oid": "67616af357925a23ac44d9f8"
+           },
+           {
+               "$oid": "67616af357925a23ac44d9f9"
+           },
+           {
+               "$oid": "67616af357925a23ac44d9fa"
+           }
+       ],
+       "createdAt": {
+           "$date": "2024-12-18T09:00:00Z"
+       },
+       "updatedAt": {
+           "$date": "2024-12-18T09:30:00Z"
+       }
+   },
+   {
+       "_id": {
+           "$oid": "67616af357925a23ac44d9f8"
+       },
+       "parentId": {
+           "$oid": "67616af357925a23ac44d9f0"
+       },
+       "name": "Mobile Phones",
+       "description": "Smartphones with cutting-edge technology.",
+       "status": "active",
+       "stock_availability": true,
+       "children": [],
+       "createdAt": {
+           "$date": "2024-12-18T09:15:00Z"
+       },
+       "updatedAt": {
+           "$date": "2024-12-18T09:45:00Z"
+       }
+   },
+   {
+       "_id": {
+           "$oid": "67616af357925a23ac44d9f9"
+       },
+       "parentId": {
+           "$oid": "67616af357925a23ac44d9f0"
+       },
+       "name": "Laptops",
+       "description": "Portable computers for work, play, and everything in between.",
+       "status": "active",
+       "stock_availability": true,
+       "children": [],
+       "createdAt": {
+           "$date": "2024-12-18T10:00:00Z"
+       },
+       "updatedAt": {
+           "$date": "2024-12-18T10:30:00Z"
+       }
+   },
+   {
+       "_id": {
+           "$oid": "67616af357925a23ac44d9fa"
+       },
+       "parentId": {
+           "$oid": "67616af357925a23ac44d9f0"
+       },
+       "name": "Tablets",
+       "description": "Convenient and powerful tablets for on-the-go use.",
+       "status": "active",
+       "stock_availability": true,
+       "children": [],
+       "createdAt": {
+           "$date": "2024-12-18T10:45:00Z"
+       },
+       "updatedAt": {
+           "$date": "2024-12-18T11:00:00Z"
+       }
+   },
+   {
+       "_id": {
+           "$oid": "67616af357925a23ac44d9f1"
+       },
+       "parentId": null,
+       "name": "Home Appliances",
+       "description": "Essential appliances for modern living, making daily tasks simpler.",
+       "status": "active",
+       "stock_availability": true,
+       "children": [
+           {
+               "$oid": "67616af357925a23ac44d9f2"
+           },
+           {
+               "$oid": "67616af357925a23ac44d9f3"
+           },
+           {
+               "$oid": "67616af357925a23ac44d9f4"
+           }
+       ],
+       "createdAt": {
+           "$date": "2024-12-18T09:00:00Z"
+       },
+       "updatedAt": {
+           "$date": "2024-12-18T10:00:00Z"
+       }
+   },
+   {
+       "_id": {
+           "$oid": "67616af357925a23ac44d9f2"
+       },
+       "parentId": {
+           "$oid": "67616af357925a23ac44d9f1"
+       },
+       "name": "Refrigerators",
+       "description": "Keep your food fresh with energy-efficient refrigerators.",
+       "status": "active",
+       "stock_availability": true,
+       "children": [],
+       "createdAt": {
+           "$date": "2024-12-18T09:15:00Z"
+       },
+       "updatedAt": {
+           "$date": "2024-12-18T09:30:00Z"
+       }
+   },
+   {
+       "_id": {
+           "$oid": "67616af357925a23ac44d9f3"
+       },
+       "parentId": {
+           "$oid": "67616af357925a23ac44d9f1"
+       },
+       "name": "Washing Machines",
+       "description": "Advanced washing machines for effortless laundry.",
+       "status": "active",
+       "stock_availability": true,
+       "children": [],
+       "createdAt": {
+           "$date": "2024-12-18T09:45:00Z"
+       },
+       "updatedAt": {
+           "$date": "2024-12-18T10:00:00Z"
+       }
+   },
+   {
+       "_id": {
+           "$oid": "67616af357925a23ac44d9f4"
+       },
+       "parentId": {
+           "$oid": "67616af357925a23ac44d9f1"
+       },
+       "name": "Microwaves",
+       "description": "Efficient microwaves for quick and easy cooking.",
+       "status": "active",
+       "stock_availability": true,
+       "children": [],
+       "createdAt": {
+           "$date": "2024-12-18T10:15:00Z"
+       },
+       "updatedAt": {
+           "$date": "2024-12-18T10:30:00Z"
+       }
+   },
+   {
+       "_id": {
+           "$oid": "67616af357925a23ac44d9f5"
+       },
+       "parentId": null,
+       "name": "Sports",
+       "description": "Gear and equipment for all your favorite sports and outdoor activities.",
+       "status": "active",
+       "stock_availability": true,
+       "children": [
+           {
+               "$oid": "67616af357925a23ac44d9f6"
+           },
+           {
+               "$oid": "67616af357925a23ac44d9f7"
+           }
+       ],
+       "createdAt": {
+           "$date": "2024-12-18T11:00:00Z"
+       },
+       "updatedAt": {
+           "$date": "2024-12-18T11:30:00Z"
+       }
+   },
+   {
+       "_id": {
+           "$oid": "67616af357925a23ac44d9f6"
+       },
+       "parentId": {
+           "$oid": "67616af357925a23ac44d9f5"
+       },
+       "name": "Fitness Equipment",
+       "description": "High-quality equipment for home and gym workouts.",
+       "status": "active",
+       "stock_availability": true,
+       "children": [],
+       "createdAt": {
+           "$date": "2024-12-18T11:15:00Z"
+       },
+       "updatedAt": {
+           "$date": "2024-12-18T11:45:00Z"
+       }
+   },
+   {
+       "_id": {
+           "$oid": "67616af357925a23ac44d9f7"
+       },
+       "parentId": {
+           "$oid": "67616af357925a23ac44d9f5"
+       },
+       "name": "Outdoor Sports",
+       "description": "Equipment and accessories for outdoor sports enthusiasts.",
+       "status": "active",
+       "stock_availability": true,
+       "children": [],
+       "createdAt": {
+           "$date": "2024-12-18T12:00:00Z"
+       },
+       "updatedAt": {
+           "$date": "2024-12-18T12:30:00Z"
+       }
+   }
+
+]

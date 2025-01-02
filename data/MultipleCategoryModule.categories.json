@@ -1,0 +1,107 @@
+[{
+  "_id": {
+    "$oid": "67616af357925a23ac44d8d0"
+  },
+  "parentId": null,
+  "name": "women",
+  "description": "women description",
+  "status": "active",
+  "stock_availability": true,
+  "children": [
+    {
+      "$oid": "67616b1f57925a23ac44d8d2"
+    },
+    {
+      "$oid": "67617124228c5f4530c5649c"
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-12-17T12:13:39.075Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-17T12:40:04.744Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67616b1f57925a23ac44d8d2"
+  },
+  "parentId": {
+    "$oid": "67616af357925a23ac44d8d0"
+  },
+  "name": "pent",
+  "description": "women pents description",
+  "status": "active",
+  "stock_availability": true,
+  "children": [],
+  "createdAt": {
+    "$date": "2024-12-17T12:14:23.471Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-17T12:14:23.471Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67617124228c5f4530c5649c"
+  },
+  "parentId": {
+    "$oid": "67616af357925a23ac44d8d0"
+  },
+  "name": "tops",
+  "description": "women tops description",
+  "status": "active",
+  "stock_availability": true,
+  "children": [],
+  "createdAt": {
+    "$date": "2024-12-17T12:40:04.704Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-17T12:40:04.704Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "676180db9832a37796683b1b"
+  },
+  "parentId": null,
+  "name": "Electronics",
+  "description": "Electronics description",
+  "status": "active",
+  "stock_availability": true,
+  "children": [
+    {
+      "$oid": "6761810a9832a37796683b1e"
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-12-17T13:47:07.360Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-17T13:47:54.360Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6761810a9832a37796683b1e"
+  },
+  "parentId": {
+    "$oid": "676180db9832a37796683b1b"
+  },
+  "name": "Smart Watch",
+  "description": "smart Watch description",
+  "status": "active",
+  "stock_availability": true,
+  "children": [],
+  "createdAt": {
+    "$date": "2024-12-17T13:47:54.319Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-17T13:47:54.319Z"
+  },
+  "__v": 0
+}]

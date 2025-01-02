@@ -1,0 +1,28 @@
+{
+  "name": "multiplecategories",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "start": "nodemon index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "joi": "^17.13.3",
+    "mongoose": "^8.9.0",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "validator": "^13.12.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/mongoose": "^5.11.96",
+    "@types/node": "^22.10.2",
+    "@types/validator": "^13.12.2",
+    "typescript": "^5.7.2"
+  }
+}
