@@ -90,6 +90,14 @@ export const getCategories = catchAsync(async (req: Request, res: Response, next
               localField: "children",
               foreignField: "_id",
               as: "children",
+              pipeline:[
+             {   $lookup: {
+                  from: "categories",
+                  localField: "children",
+                  foreignField: "_id",
+                  as: "children",
+                },}
+              ]
             },
           },
         ],
