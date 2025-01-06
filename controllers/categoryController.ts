@@ -130,6 +130,16 @@ export const getCategoryByID = catchAsync(async (req: Request, res: Response, ne
               localField: "children",
               foreignField: "_id",
               as: "children",
+              pipeline: [
+                {
+                  $lookup: {
+                    from: "categories",
+                    localField: "children",
+                    foreignField: "_id",
+                    as: "children",
+                  },
+                },
+              ],
             },
           },
         ],
@@ -292,6 +302,8 @@ export const searchCategory = catchAsync(async (req: Request, res: Response, nex
 
   const regex = new RegExp(key, "i");
   const category = await Category.aggregate([
+    
+    { $match: { name: regex } },
     {
       $lookup: {
         from: "categories",
@@ -305,12 +317,21 @@ export const searchCategory = catchAsync(async (req: Request, res: Response, nex
               localField: "children",
               foreignField: "_id",
               as: "children",
+              pipeline: [
+                {
+                  $lookup: {
+                    from: "categories",
+                    localField: "children",
+                    foreignField: "_id",
+                    as: "children",
+                  },
+                },
+              ],
             },
           },
         ],
       },
     },
-    { $match: { name: regex } },
   ]);
 
   if (!category.length) {
